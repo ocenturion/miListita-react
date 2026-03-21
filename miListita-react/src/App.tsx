@@ -39,7 +39,7 @@ function App() {
       <input
         type="text"
         value={nuevoArticulo}
-        placeholder="Articulo"
+        placeholder="Articulo.."
         onChange={(e) => {
           setNuevoArticulo(e.target.value);
         }}
